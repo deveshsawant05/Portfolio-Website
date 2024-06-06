@@ -52,7 +52,11 @@ body {
     margin: 0px;
 }
 .text-font {
+<<<<<<< HEAD
     font-family: 'Cascadia Code','Casadia Mono','Source Code Pro','Courier New','Courier',sans-serif;
+=======
+    font-family: 'Cascadia Code','Casadia Mono','Source Code Pro','Courier New','Courier', sans-serif;
+>>>>>>> ef4221e23a0c08bc0c63ce395048d47e1b5f04f9
     font-size: 3vw;
     color: rgb(91, 76, 156);
     margin: 0px 0px 2vh;
