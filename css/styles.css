@@ -51,17 +51,27 @@ body {
     height: 100vh;
     margin: 0px;
 }
-.text-font {
+.heading{
     font-family: 'Cascadia Code','Casadia Mono','Source Code Pro','Courier New','Courier',sans-serif;
     font-size: 3vw;
     color: rgb(91, 76, 156);
     margin: 0px 0px 2vh;
+}
+.text-font {
+    font-family: 'Cascadia Code','Casadia Mono','Source Code Pro','Courier New','Courier',sans-serif;
+    font-size: 1.5vw;
+    color: rgb(91, 76, 156);
+    margin: 0px 0px 2vh;
+}
+.font{
+    font-family: 'Cascadia Code','Casadia Mono','Source Code Pro','Courier New','Courier',sans-serif;
+    font-size: 1.5vw;
 }
 .logo-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.lang_logo {
+.logo-container >img{
     height: 5vw;
 }
