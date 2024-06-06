@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(213, 230, 248);
+    margin: 0px;
+    padding: 0px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 100vh;
+}
+.self-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.titles {
+    margin-bottom: 10vh;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.title1 {
+    font-family: "Cascadia Mono ExtraLight", sans-serif;
+    font-size: 3vw;
+    color: rgb(255, 92, 83);
+    margin: 0px 0px 2vh;
+}
+.title2 {
+    font-family: "ENGRAVERS MT", "serif";
+    font-size: 4vw;
+    margin: 0px 0px 2vh;
+}
+.title3 {
+    color: rgb(95, 78, 155);
+}
+.profile-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img {
+    width: 20%;
+    border-radius: 50%;
+}
+.img-div {
+    width: 50%;
+    grid-area: 1 / 2 / 2 / 3;
+}
+.side-img {
+    height: 100vh;
+    margin: 0px;
+}
+.text-font {
+    font-family: "Cascadia Mono ExtraLight", sans-serif;
+    font-size: 3vw;
+    color: rgb(91, 76, 156);
+    margin: 0px 0px 2vh;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lang_logo {
+    height: 5vw;
+}
