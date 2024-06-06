@@ -47,7 +47,7 @@ body {
     grid-area: 1 / 2 / 2 / 3;
 }
 .side-img {
-    width: 50vw;
+    width: 30vw;
     height: 100vh;
     margin: 0px;
 }
